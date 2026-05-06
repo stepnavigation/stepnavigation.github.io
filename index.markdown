@@ -8,5 +8,5 @@ header:
 
 {% include search-box.html %}
 
-
-Todo
+* [Privacy](privacy.markdown)
+* All support questions should be directed to [pruvolo@olin.edu](mailto:pruvolo@olin.edu)
