@@ -78,7 +78,7 @@ customElements.define("confirm-link", ConfirmLink, { extends: "a" });
 
 </script>
 
-<!-- begin _includes/seo.html --><title>STEP Navigation - STEP Navigation</title>
+<!-- begin _includes/seo.html --><title>Privacy - STEP Navigation</title>
 <meta name="description" content="">
 
 
@@ -86,8 +86,8 @@ customElements.define("confirm-link", ConfirmLink, { extends: "a" });
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="STEP Navigation">
-<meta property="og:title" content="STEP Navigation">
-<meta property="og:url" content="/">
+<meta property="og:title" content="Privacy">
+<meta property="og:url" content="/privacy.html">
 
 
 
@@ -101,7 +101,7 @@ customElements.define("confirm-link", ConfirmLink, { extends: "a" });
 
 
 
-<link rel="canonical" href="/">
+<link rel="canonical" href="/privacy.html">
 
 
 
@@ -329,7 +329,7 @@ $
 
   </head>
 
-  <body class="layout--splash">
+  <body class="layout--problemset">
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -371,62 +371,85 @@ $
 
     <div class="initial-content">
       
-  
-
-
-
-
-
-
-
-
-
-
-
-<div class="page__hero--overlay"
-  style="background-color: #000; "
->
-  
-    <div class="wrapper">
-      <h1 id="page-title" class="page__title" itemprop="headline">
-        
-          STEP Navigation
-
-        
-      </h1>
-      
-      
-      
-      
-    </div>
-  
-  
-</div>
 
 
 
 <div id="main" role="main">
-  <article class="splash" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="STEP Navigation">
+  
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Privacy">
     
     
     
 
-    <section class="page__content" itemprop="text">
-      <div class="header-search">
-  <form class="header-search-form" action="/search" method="get">
-    <input type="text" id="search-box" name="query" />
-    <input type="submit" value="search" />
-  </form>
-</div>
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">Privacy
+</h1>
+          
+        </header>
+      
 
+      <section class="page__content" itemprop="text">
+        
+          <aside class="sidebar__right sticky">
+            <nav class="toc">
+              <header><h4 class="nav__title"><i class="fas fa-file-alt"></i> On this page</h4></header>
+	      
+                <ul class="toc__menu">
+  <li><a href="#data-collected-during-navigation-and-mapping-sessions">Data Collected During Navigation and Mapping Sessions</a></li>
+  <li><a href="#optional-data-collected-when-navigating-or-mapping-venues">Optional Data Collected When Navigating or Mapping Venues</a></li>
+</ul>
+	      	
+            </nav>
+          </aside>
+        
+        <h1 id="data-collected-during-navigation-and-mapping-sessions">Data Collected During Navigation and Mapping Sessions</h1>
+
+<p>As you navigate a route using the app, the following information will be collected.  This information will not be 
+shared with outside parties and will only be accessed by the STEP Navigation developers and research team.</p>
 <ul>
-  <li><a href="/privacy.html">Privacy</a></li>
-  <li>All support questions should be directed to <a href="mailto:pruvolo@olin.edu">pruvolo@olin.edu</a></li>
+  <li>Your latitude and longitude</li>
+  <li>The 3D-motion of your phone relative to the phone’s starting position</li>
+  <li>Your evaluation of the quality of the navigation experience based on the ratings you provide through the app itself.</li>
+  <li>Video data of your usage will be processed using Google’s Cloud Anchor API, which his subject to the 
+following <a href="https://developers.google.com/ar/develop/privacy-nutrition-label">privacy policy</a>.  Importantly, this 
+privacy policy stipulates that video data will be deleted as soon as 
+processing is complete (usually within 30 seconds) and video data will not be shared by third parties.</li>
 </ul>
 
-    </section>
+<h1 id="optional-data-collected-when-navigating-or-mapping-venues">Optional Data Collected When Navigating or Mapping Venues</h1>
+
+<p>If you are a venue manager (you’ve successfully entered a venue key), under the recording preferences settings menu, 
+you can turn on anchor and navigation recordings.  When these recordings are turned on, video of your anchor recordings
+and navigation sessions will be recorded to your phone.  Later, you can share these recordings with us through the 
+“Mange Anchor Recordings” menu.  The purpose of these recordings is to allow us to convert your maps to use a new 
+mapping algorithm we are developing that will enable advanced features, such as the ability to use the app without 
+an Internet connection.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+      </footer>
+
+      
+
+      
+    </div>
+
+    
   </article>
+
+  
+  
 </div>
 
     </div>
